@@ -4,6 +4,6 @@ describe("GET /", function() {
  it("respond with hello world", function(done) {
  
     //navigate to root and check the the response is "Welcome App"
- request(app).get("/").expect("hello world!", done);
+ request(app).get("/").expect("hello world", done);
  });
 });
