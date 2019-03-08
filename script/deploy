@@ -1,0 +1,8 @@
+#!/bin/sh
+ssh -i ~/.ssh/ssh.pem ubuntu@35.181.47.121 <<EOF
+cd ~/aws-demo
+git pull
+npm install
+pm2 restart all
+exit
+EOF
