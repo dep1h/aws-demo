@@ -1,2 +1,2 @@
-# Testing auto deployment to AWS2
-
+# CI & CD
+Testing deploy
