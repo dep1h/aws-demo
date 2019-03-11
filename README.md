@@ -1,2 +1,2 @@
 # CI & CD
-testing deploy
+Auto deployment via SSH
