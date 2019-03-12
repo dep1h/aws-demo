@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh -v -t -t -R ~/.ssh/ssh.pem ubuntu@35.181.47.121 <<EOF
+ssh -v -t -t -R ~/.ssh/id_rsa.pub ubuntu@35.181.47.121 <<EOF
 cd ~/aws-demo
 git pull
 npm install
