@@ -1,2 +1,2 @@
 # CI & CD
-Testing deploy
+Test
