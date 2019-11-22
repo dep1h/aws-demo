@@ -19,6 +19,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: npm install, build, and test
       run: |
-        npm app.js
+        npm install
+        npm run app.js
       env:
         CI: true
